@@ -96,7 +96,7 @@ class FeatureTableCreator:
         The feature table is created from the Spark DataFrame provided, dropping the label column if it exists in the
         DataFrame. The label column cannot be present in the feature table when later constructing a feature store
         training set from the feature table. The feature table will be created using the primary keys and description
-        proivided via feature_store_table_cfg.
+        provided via feature_store_table_cfg.
 
         Parameters
         ----------
